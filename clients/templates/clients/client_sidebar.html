@@ -1,0 +1,19 @@
+{% load static %}
+<div class="navbar-default sidebar" role="navigation">
+    <div class="sidebar-nav navbar-collapse">
+        <ul class="nav" id="side-menu">
+            <li>
+                <a href="{% url 'clients:dashboard' %}" class="active"><i class="fa fa-dashboard fa-fw"></i> DASHBOARD</a>
+            </li>
+            <li>
+{#                <a href="{% url 'clients:projets' %}" class="active"><i class="fa fa-dashboard fa-fw"></i> GESTION PROJETS</a>#}
+            </li>
+            <li>
+                <a href="{% url 'catre_parcelles' %}" target="_blank"><i class="fa fa-map-marker fa-fw"></i> PARCELLES</a>
+            </li>
+            <li>
+                {#                  <a href="#" target="_blank"><i class="fa fa-map-marker fa-fw"></i> PLANTINGS</a>#}
+            </li>
+        </ul>
+    </div>
+</div>

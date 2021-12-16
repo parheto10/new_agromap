@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="19a25d32-6dc8-499a-a3a3-5e7723ca2090" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/clients/migrations/0002_auto_20211207_1130.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperatives/templates/cooperatives/usercoop/coop_connect_carte.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agro_tracability/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/agro_tracability/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agro_tracability/asgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/agro_tracability/asgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agro_tracability/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/agro_tracability/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agro_tracability/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/agro_tracability/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agro_tracability/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/agro_tracability/wsgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/clients/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/clients/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/clients/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/clients/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/clients/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/clients/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/templates/clients/Coop/client_nav.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/templates/clients/Coop/client_nav.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/templates/clients/Coop/client_sidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/templates/clients/Coop/client_sidebar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/templates/clients/Coop/coop_formations.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/templates/clients/Coop/coop_formations.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/templates/clients/Coop/coop_parcelle.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/templates/clients/Coop/coop_parcelle.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/templates/clients/Coop/coop_plantings.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/templates/clients/Coop/coop_plantings.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/templates/clients/Coop/coop_producteurs.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/templates/clients/Coop/coop_producteurs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/templates/clients/Coop/coop_sections.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/templates/clients/Coop/coop_sections.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/templates/clients/Coop/coop_sous_sections.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/templates/clients/Coop/coop_sous_sections.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/templates/clients/Coop/cooperative.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/templates/clients/Coop/cooperative.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/templates/clients/Coop/detail_formation.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/templates/clients/Coop/detail_formation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/templates/clients/Coop/detail_formation1.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/templates/clients/Coop/detail_formation1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/templates/clients/client_nav.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/templates/clients/client_nav.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/templates/clients/client_sidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/templates/clients/client_sidebar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/templates/clients/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/templates/clients/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/templates/clients/projet.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/templates/clients/projet.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/templates/clients/projets.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/templates/clients/projets.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/clients/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/clients/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/clients/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cooperatives/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/cooperatives/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cooperatives/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/cooperatives/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cooperatives/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/cooperatives/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cooperatives/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/cooperatives/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cooperatives/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/cooperatives/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cooperatives/migrations/0002_detail_formation_formation.py" beforeDir="false" afterPath="$PROJECT_DIR$/cooperatives/migrations/0002_detail_formation_formation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cooperatives/migrations/0003_auto_20211002_1936.py" beforeDir="false" afterPath="$PROJECT_DIR$/cooperatives/migrations/0003_auto_20211002_1936.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cooperatives/migrations/0004_alter_producteur_origine.py" beforeDir="false" afterPath="$PROJECT_DIR$/cooperatives/migrations/0004_alter_producteur_origine.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cooperatives/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/cooperatives/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cooperatives/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/cooperatives/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cooperatives/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/cooperatives/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cooperatives/templates/cooperatives/add_coop.html" beforeDir="false" afterPath="$PROJECT_DIR$/cooperatives/templates/cooperatives/add_coop.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cooperatives/templates/cooperatives/calcul_dstce.html" beforeDir="false" afterPath="$PROJECT_DIR$/cooperatives/templates/cooperatives/calcul_dstce.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cooperatives/templates/cooperatives/carte.html" beforeDir="false" afterPath="$PROJECT_DIR$/cooperatives/templates/cooperatives/carte.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cooperatives/templates/cooperatives/carte_pepinieres.html" beforeDir="false" afterPath="$PROJECT_DIR$/cooperatives/templates/cooperatives/carte_pepinieres.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cooperatives/templates/cooperatives/carte_update.html" beforeDir="false" afterPath="$PROJECT_DIR$/cooperatives/templates/cooperatives/carte_update.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cooperatives/templates/cooperatives/coop_nav.html" beforeDir="false" afterPath="$PROJECT_DIR$/cooperatives/templates/cooperatives/coop_nav.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cooperatives/templates/cooperatives/coop_sidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/cooperatives/templates/cooperatives/coop_sidebar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cooperatives/templates/cooperatives/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/cooperatives/templates/cooperatives/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cooperatives/templates/cooperatives/detail_formation.html" beforeDir="false" afterPath="$PROJECT_DIR$/cooperatives/templates/cooperatives/detail_formation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cooperatives/templates/cooperatives/detail_pepiniere.html" beforeDir="false" afterPath="$PROJECT_DIR$/cooperatives/templates/cooperatives/detail_pepiniere.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cooperatives/templates/cooperatives/detail_planting.html" beforeDir="false" afterPath="$PROJECT_DIR$/cooperatives/templates/cooperatives/detail_planting.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cooperatives/templates/cooperatives/edit_formation.html" beforeDir="false" afterPath="$PROJECT_DIR$/cooperatives/templates/cooperatives/edit_formation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cooperatives/templates/cooperatives/edit_pepiniere.html" beforeDir="false" afterPath="$PROJECT_DIR$/cooperatives/templates/cooperatives/edit_pepiniere.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cooperatives/templates/cooperatives/edit_semence.html" beforeDir="false" afterPath="$PROJECT_DIR$/cooperatives/templates/cooperatives/edit_semence.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cooperatives/templates/cooperatives/folium_map.html" beforeDir="false" afterPath="$PROJECT_DIR$/cooperatives/templates/cooperatives/folium_map.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cooperatives/templates/cooperatives/formations.html" beforeDir="false" afterPath="$PROJECT_DIR$/cooperatives/templates/cooperatives/formations.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cooperatives/templates/cooperatives/map.html" beforeDir="false" afterPath="$PROJECT_DIR$/cooperatives/templates/cooperatives/map.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cooperatives/templates/cooperatives/map_parcelles.html" beforeDir="false" afterPath="$PROJECT_DIR$/cooperatives/templates/cooperatives/map_parcelles.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cooperatives/templates/cooperatives/new_parcelles_pdf.html" beforeDir="false" afterPath="$PROJECT_DIR$/cooperatives/templates/cooperatives/new_parcelles_pdf.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cooperatives/templates/cooperatives/parcelle_delete.html" beforeDir="false" afterPath="$PROJECT_DIR$/cooperatives/templates/cooperatives/parcelle_delete.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cooperatives/templates/cooperatives/parcelle_edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/cooperatives/templates/cooperatives/parcelle_edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cooperatives/templates/cooperatives/parcelles.html" beforeDir="false" afterPath="$PROJECT_DIR$/cooperatives/templates/cooperatives/parcelles.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cooperatives/templates/cooperatives/parcelles_data.html" beforeDir="false" afterPath="$PROJECT_DIR$/cooperatives/templates/cooperatives/parcelles_data.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cooperatives/templates/cooperatives/parcelles_pdf.html" beforeDir="false" afterPath="$PROJECT_DIR$/cooperatives/templates/cooperatives/parcelles_pdf.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cooperatives/templates/cooperatives/pepinieres.html" beforeDir="false" afterPath="$PROJECT_DIR$/cooperatives/templates/cooperatives/pepinieres.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cooperatives/templates/cooperatives/planting_coop_update.html" beforeDir="false" afterPath="$PROJECT_DIR$/cooperatives/templates/cooperatives/planting_coop_update.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cooperatives/templates/cooperatives/planting_create.html" beforeDir="false" afterPath="$PROJECT_DIR$/cooperatives/templates/cooperatives/planting_create.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cooperatives/templates/cooperatives/planting_edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/cooperatives/templates/cooperatives/planting_edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cooperatives/templates/cooperatives/planting_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/cooperatives/templates/cooperatives/planting_form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cooperatives/templates/cooperatives/plantings.html" beforeDir="false" afterPath="$PROJECT_DIR$/cooperatives/templates/cooperatives/plantings.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cooperatives/templates/cooperatives/prod_delete.html" beforeDir="false" afterPath="$PROJECT_DIR$/cooperatives/templates/cooperatives/prod_delete.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cooperatives/templates/cooperatives/prod_edt.html" beforeDir="false" afterPath="$PROJECT_DIR$/cooperatives/templates/cooperatives/prod_edt.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cooperatives/templates/cooperatives/prods_pdf.html" beforeDir="false" afterPath="$PROJECT_DIR$/cooperatives/templates/cooperatives/prods_pdf.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cooperatives/templates/cooperatives/producteur_dropdown.html" beforeDir="false" afterPath="$PROJECT_DIR$/cooperatives/templates/cooperatives/producteur_dropdown.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cooperatives/templates/cooperatives/producteurs.html" beforeDir="false" afterPath="$PROJECT_DIR$/cooperatives/templates/cooperatives/producteurs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cooperatives/templates/cooperatives/producteurs_pdf.html" beforeDir="false" afterPath="$PROJECT_DIR$/cooperatives/templates/cooperatives/producteurs_pdf.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cooperatives/templates/cooperatives/section.html" beforeDir="false" afterPath="$PROJECT_DIR$/cooperatives/templates/cooperatives/section.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cooperatives/templates/cooperatives/section_delete.html" beforeDir="false" afterPath="$PROJECT_DIR$/cooperatives/templates/cooperatives/section_delete.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cooperatives/templates/cooperatives/section_edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/cooperatives/templates/cooperatives/section_edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cooperatives/templates/cooperatives/sections.html" beforeDir="false" afterPath="$PROJECT_DIR$/cooperatives/templates/cooperatives/sections.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cooperatives/templates/cooperatives/semence_delete.html" beforeDir="false" afterPath="$PROJECT_DIR$/cooperatives/templates/cooperatives/semence_delete.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cooperatives/templates/cooperatives/sous_section_delete.html" beforeDir="false" afterPath="$PROJECT_DIR$/cooperatives/templates/cooperatives/sous_section_delete.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cooperatives/templates/cooperatives/sous_section_edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/cooperatives/templates/cooperatives/sous_section_edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cooperatives/templates/cooperatives/sous_sections.html" beforeDir="false" afterPath="$PROJECT_DIR$/cooperatives/templates/cooperatives/sous_sections.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cooperatives/templates/cooperatives/suivi_planting.html" beforeDir="false" afterPath="$PROJECT_DIR$/cooperatives/templates/cooperatives/suivi_planting.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cooperatives/templates/planting_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/cooperatives/templates/planting_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cooperatives/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/cooperatives/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cooperatives/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/cooperatives/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cooperatives/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/cooperatives/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/identifier.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/identifier.sqlite" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logos/CARGILL.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/logos/CARGILL.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logos/REFORESTACTION.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/logos/REFORESTACTION.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parametres/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/parametres/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parametres/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/parametres/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parametres/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/parametres/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parametres/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/parametres/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parametres/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/parametres/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parametres/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/parametres/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parametres/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/parametres/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parametres/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/parametres/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parametres/templates/parametres/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/parametres/templates/parametres/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parametres/templates/parametres/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/parametres/templates/parametres/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parametres/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/parametres/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parametres/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/parametres/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parametres/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/parametres/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parif/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/parif/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parif/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/parif/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parif/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/parif/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parif/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/parif/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parif/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/parif/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parif/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/parif/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parif/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/parif/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parif/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/parif/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/auth/js/all.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/auth/js/all.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/auth/js/all.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/auth/js/all.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/auth/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/auth/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/auth/styles/all.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/auth/styles/all.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/auth/styles/all.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/auth/styles/all.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/auth/styles/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/auth/styles/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/auth/styles/font-awesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/auth/styles/font-awesome.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/auth/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/auth/styles/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/auth/uikit/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/auth/uikit/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/auth/uikit/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/auth/uikit/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/auth/uikit/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/auth/uikit/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/auth/uikit/styles/modules/_alert.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/auth/uikit/styles/modules/_alert.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/auth/uikit/styles/modules/_animation.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/auth/uikit/styles/modules/_animation.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/auth/uikit/styles/modules/_author-box.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/auth/uikit/styles/modules/_author-box.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/auth/uikit/styles/modules/_avatar.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/auth/uikit/styles/modules/_avatar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/auth/uikit/styles/modules/_base.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/auth/uikit/styles/modules/_base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/auth/uikit/styles/modules/_button.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/auth/uikit/styles/modules/_button.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/auth/uikit/styles/modules/_card.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/auth/uikit/styles/modules/_card.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/auth/uikit/styles/modules/_form.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/auth/uikit/styles/modules/_form.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/auth/uikit/styles/modules/_grid.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/auth/uikit/styles/modules/_grid.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/auth/uikit/styles/modules/_layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/auth/uikit/styles/modules/_layout.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/auth/uikit/styles/modules/_loading.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/auth/uikit/styles/modules/_loading.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/auth/uikit/styles/modules/_tag-input.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/auth/uikit/styles/modules/_tag-input.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/auth/uikit/styles/modules/_tag.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/auth/uikit/styles/modules/_tag.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/auth/uikit/styles/modules/_typography.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/auth/uikit/styles/modules/_typography.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/auth/uikit/styles/modules/_utilities.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/auth/uikit/styles/modules/_utilities.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/auth/uikit/styles/modules/_variables.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/auth/uikit/styles/modules/_variables.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/auth/uikit/styles/uikit.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/auth/uikit/styles/uikit.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/Control.Geocoder.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/Control.Geocoder.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/MarkerCluster.Default.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/MarkerCluster.Default.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/MarkerCluster.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/MarkerCluster.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/rulers.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/assets/rulers.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/rulers1.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/assets/rulers1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/start.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/assets/start.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/bootstrap-social.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/bootstrap-social.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/bootstrap-theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/bootstrap-theme.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/dataTables/dataTables.bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/dataTables/dataTables.bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/dataTables/dataTables.responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/dataTables/dataTables.responsive.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/font-awesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/font-awesome.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/languages/ca.json" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/languages/ca.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/languages/cn.json" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/languages/cn.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/languages/cz.json" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/languages/cz.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/languages/da.json" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/languages/da.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/languages/de.json" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/languages/de.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/languages/de_CH.json" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/languages/de_CH.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/languages/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/languages/en.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/languages/en_UK.json" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/languages/en_UK.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/languages/es.json" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/languages/es.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/languages/fa.json" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/languages/fa.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/languages/fil_PH.json" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/languages/fil_PH.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/languages/fr.json" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/languages/fr.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/languages/hu.json" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/languages/hu.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/languages/it.json" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/languages/it.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/languages/nl.json" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/languages/nl.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/languages/pl.json" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/languages/pl.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/languages/pt_BR.json" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/languages/pt_BR.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/languages/pt_PT.json" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/languages/pt_PT.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/languages/ro.json" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/languages/ro.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/languages/ru.json" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/languages/ru.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/languages/sk.json" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/languages/sk.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/languages/sl.json" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/languages/sl.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/languages/sv.json" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/languages/sv.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/languages/tr.json" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/languages/tr.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/leaflet-measure.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/leaflet-measure.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/leaflet.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/leaflet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/map.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/map.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/metisMenu.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/metisMenu.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/morris.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/morris.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/startmin.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/startmin.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/timeline.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/timeline.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/dist/css/bootstrap-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/dist/css/bootstrap-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/dist/css/bootstrap-theme.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/static/dist/css/bootstrap-theme.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/dist/css/bootstrap-theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/dist/css/bootstrap-theme.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/dist/css/bootstrap-theme.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/static/dist/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/dist/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/dist/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/dist/css/bootstrap.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/static/dist/css/bootstrap.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/dist/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/dist/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/dist/css/bootstrap.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/static/dist/css/bootstrap.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/dist/css/bootstrap2.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/dist/css/bootstrap2.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/dist/fonts/glyphicons-halflings-regular.eot" beforeDir="false" afterPath="$PROJECT_DIR$/static/dist/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/dist/fonts/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/dist/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/dist/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/static/dist/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/dist/fonts/glyphicons-halflings-regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/static/dist/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/dist/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/static/dist/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/dist/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/dist/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/dist/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/dist/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/dist/js/bootstrap2.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/dist/js/bootstrap2.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/dist/js/jquery-3.5.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/dist/js/jquery-3.5.1.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/dist/js/npm.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/dist/js/npm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/fonts/FontAwesome.otf" beforeDir="false" afterPath="$PROJECT_DIR$/static/fonts/FontAwesome.otf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/fonts/fontawesome-webfont.eot" beforeDir="false" afterPath="$PROJECT_DIR$/static/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/fonts/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/fonts/fontawesome-webfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/static/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/fonts/fontawesome-webfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/static/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/fonts/fontawesome-webfont.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/static/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.eot" beforeDir="false" afterPath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/Logo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/Logo.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/avatar.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/avatar.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/avatar04.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/avatar04.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/avatar3.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/avatar3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/avatar5.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/avatar5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/icons/blue.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/icons/blue.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/icons/icon_image.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/icons/icon_image.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/icons/icon_map.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/icons/icon_map.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/icons/my_icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/icons/my_icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/icons/my_icon1.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/icons/my_icon1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/icons/my_user_icon.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/icons/my_user_icon.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/icons/place1.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/icons/place1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/icons/place2.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/icons/place2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/icons/red.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/icons/red.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/icons/unnamed.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/icons/unnamed.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/icons/user_icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/icons/user_icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/icons/user_icon2.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/icons/user_icon2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/icons/user_place.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/icons/user_place.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/logo_femme.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/logo_femme.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/logo_homme.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/logo_homme.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/logo_png.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/logo_png.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/rulers.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/rulers.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/rulers1.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/rulers1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/Chart.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/Chart.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/Chart1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/Chart1.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/OpenLayers.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/OpenLayers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/Web-GIS.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/Web-GIS.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/chart.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/chart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/dataTables/dataTables.bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/dataTables/dataTables.bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/dataTables/jquery.dataTables.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/dataTables/jquery.dataTables.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/flot-data.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/flot-data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/flot/excanvas.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/flot/excanvas.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/flot/jquery.colorhelpers.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/flot/jquery.colorhelpers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/flot/jquery.flot.canvas.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/flot/jquery.flot.canvas.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/flot/jquery.flot.categories.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/flot/jquery.flot.categories.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/flot/jquery.flot.crosshair.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/flot/jquery.flot.crosshair.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/flot/jquery.flot.errorbars.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/flot/jquery.flot.errorbars.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/flot/jquery.flot.fillbetween.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/flot/jquery.flot.fillbetween.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/flot/jquery.flot.image.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/flot/jquery.flot.image.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/flot/jquery.flot.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/flot/jquery.flot.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/flot/jquery.flot.navigate.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/flot/jquery.flot.navigate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/flot/jquery.flot.pie.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/flot/jquery.flot.pie.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/flot/jquery.flot.resize.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/flot/jquery.flot.resize.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/flot/jquery.flot.selection.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/flot/jquery.flot.selection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/flot/jquery.flot.stack.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/flot/jquery.flot.stack.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/flot/jquery.flot.symbol.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/flot/jquery.flot.symbol.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/flot/jquery.flot.threshold.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/flot/jquery.flot.threshold.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/flot/jquery.flot.time.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/flot/jquery.flot.time.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/flot/jquery.flot.tooltip.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/flot/jquery.flot.tooltip.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/formset.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/formset.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/index_parcelles.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/index_parcelles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/index_parif.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/index_parif.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/index_pepinieres.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/index_pepinieres.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/index_planting.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/index_planting.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/index_planting_parif.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/index_planting_parif.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/jquery.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/leaflet-measure.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/leaflet-measure.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/leaflet.ajax.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/leaflet.ajax.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/leaflet.ajax.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/leaflet.ajax.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/leaflet.browser.print.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/leaflet.browser.print.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/leaflet.browser.print.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/leaflet.browser.print.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/leaflet.markercluster.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/leaflet.markercluster.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/map.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/map.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/metisMenu.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/metisMenu.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/morris-data.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/morris-data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/morris.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/morris.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/raphael.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/raphael.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/startmin.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/startmin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/marker-icons/mapbox-marker-icon-20px-blue.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/marker-icons/mapbox-marker-icon-20px-blue.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/marker-icons/mapbox-marker-icon-20px-gray.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/marker-icons/mapbox-marker-icon-20px-gray.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/marker-icons/mapbox-marker-icon-20px-green.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/marker-icons/mapbox-marker-icon-20px-green.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/marker-icons/mapbox-marker-icon-20px-orange.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/marker-icons/mapbox-marker-icon-20px-orange.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/marker-icons/mapbox-marker-icon-20px-pink.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/marker-icons/mapbox-marker-icon-20px-pink.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/marker-icons/mapbox-marker-icon-20px-purple.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/marker-icons/mapbox-marker-icon-20px-purple.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/marker-icons/mapbox-marker-icon-20px-red.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/marker-icons/mapbox-marker-icon-20px-red.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/marker-icons/mapbox-marker-icon-20px-yellow.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/marker-icons/mapbox-marker-icon-20px-yellow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/marker-icons/mapbox-marker-icon-blue.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/marker-icons/mapbox-marker-icon-blue.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/marker-icons/mapbox-marker-icon-gray.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/marker-icons/mapbox-marker-icon-gray.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/marker-icons/mapbox-marker-icon-green.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/marker-icons/mapbox-marker-icon-green.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/marker-icons/mapbox-marker-icon-orange.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/marker-icons/mapbox-marker-icon-orange.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/marker-icons/mapbox-marker-icon-pink.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/marker-icons/mapbox-marker-icon-pink.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/marker-icons/mapbox-marker-icon-purple.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/marker-icons/mapbox-marker-icon-purple.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/marker-icons/mapbox-marker-icon-red.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/marker-icons/mapbox-marker-icon-red.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/marker-icons/mapbox-marker-icon-yellow.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/marker-icons/mapbox-marker-icon-yellow.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/medias/Producteurs/Documents/0014" beforeDir="false" afterPath="$PROJECT_DIR$/static/medias/Producteurs/Documents/0014" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/medias/Producteurs/Documents/0015" beforeDir="false" afterPath="$PROJECT_DIR$/static/medias/Producteurs/Documents/0015" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/medias/Producteurs/Documents/228-BE005" beforeDir="false" afterPath="$PROJECT_DIR$/static/medias/Producteurs/Documents/228-BE005" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/medias/Producteurs/Documents/30-03-2021" beforeDir="false" afterPath="$PROJECT_DIR$/static/medias/Producteurs/Documents/30-03-2021" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/medias/Producteurs/Images/0001-ABJ-01.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/static/medias/Producteurs/Images/0001-ABJ-01.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/medias/Producteurs/Images/001-GP-2.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/static/medias/Producteurs/Images/001-GP-2.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/medias/Producteurs/Images/001.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/static/medias/Producteurs/Images/001.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/medias/Producteurs/Images/0014.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/static/medias/Producteurs/Images/0014.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/medias/Producteurs/Images/0015.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/static/medias/Producteurs/Images/0015.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/medias/Producteurs/Images/228-BE001.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/static/medias/Producteurs/Images/228-BE001.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/medias/Producteurs/Images/30-03-2021.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/static/medias/Producteurs/Images/30-03-2021.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/medias/logos/CARGILL.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/static/medias/logos/CARGILL.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/medias/logos/REFOREST_ACTION.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/static/medias/logos/REFOREST_ACTION.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/medias/logos/W_002_001.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/static/medias/logos/W_002_001.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/medias/logos/W_002_002.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/static/medias/logos/W_002_002.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/medias/logos/W_002_004.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/static/medias/logos/W_002_004.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/medias/logos/W_002_005.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/static/medias/logos/W_002_005.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/medias/logos/cargill_giTOEuV.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/static/medias/logos/cargill_giTOEuV.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/Coop/admin_coop_nav.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Coop/admin_coop_nav.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/Coop/admin_coop_sidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Coop/admin_coop_sidebar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/Coop/coop_formations.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Coop/coop_formations.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/Coop/coop_parcelle.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Coop/coop_parcelle.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/Coop/coop_plantings.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Coop/coop_plantings.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/Coop/coop_producteurs.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Coop/coop_producteurs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/Coop/coop_sections.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Coop/coop_sections.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/Coop/coop_sous_sections.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Coop/coop_sous_sections.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/Coop/cooperative.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Coop/cooperative.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/Coop/detail_formation.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Coop/detail_formation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/Coop/detail_planting.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Coop/detail_planting.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/_partials/css.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/_partials/css.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/_partials/js.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/_partials/js.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/_partials/messages_display.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/_partials/messages_display.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/admin.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/admin_nav.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin_nav.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/admin_sidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin_sidebar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/auth/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/auth/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/auth/reset.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/auth/reset.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/auth/reset_password.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/auth/reset_password.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/auth/reset_password_complete.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/auth/reset_password_complete.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/auth/reset_password_sent.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/auth/reset_password_sent.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base_test.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base_test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/carte.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/carte.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/carte1.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/carte1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/carte2.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/carte2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/carte3.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/carte3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/carte_coop.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/carte_coop.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/carte_update.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/carte_update.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/covid.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/covid.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/detail_pepiniere.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/detail_pepiniere.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/folium_planting_map.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/folium_planting_map.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/formations.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/formations.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/maintenance.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/maintenance.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/map.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/map.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/map2.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/map2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/map_admin.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/map_admin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/map_parcelles.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/map_parcelles.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/map_plantings.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/map_plantings.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/new_map.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/new_map.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/pepinieres.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pepinieres.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/pepinieres_json.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pepinieres_json.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/projet.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/projet.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/projet_delete.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/projet_delete.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/projet_edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/projet_edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/projets.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/projets.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="1yquHkYXvoHy27mYrMqBaSoVJq2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="sqlite" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Documents/django-ecommerce" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\dj_projects\agro_tracability\agro_tracability\cooperatives" />
+      <recent name="E:\dj_projects\agro_tracability\agro_tracability\parametres" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="agro_tracability" type="Python.DjangoServer" factoryName="Django server">
+      <module name="agro_tracability" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="agro_tracability.settings" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/bin/python3.8" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="http://127.0.0.1:8000/" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="19a25d32-6dc8-499a-a3a3-5e7723ca2090" name="Changes" comment="" />
+      <created>1632991353892</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1632991353892</updated>
+      <workItem from="1632991390412" duration="11232000" />
+      <workItem from="1633183212547" duration="4254000" />
+      <workItem from="1633214295910" duration="26420000" />
+      <workItem from="1633425568788" duration="22701000" />
+      <workItem from="1633510762398" duration="19238000" />
+      <workItem from="1633552472138" duration="2403000" />
+      <workItem from="1638872855265" duration="16509000" />
+      <workItem from="1639128573689" duration="754000" />
+      <workItem from="1639155773571" duration="3286000" />
+      <workItem from="1639384418292" duration="6592000" />
+      <workItem from="1639667692547" duration="1772000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
